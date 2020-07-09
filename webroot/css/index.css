@@ -4,6 +4,7 @@
 }
 body {
   background: #F4F6F9;
+  /* background-image: url(../img/bg_header.png); */
 }
 h1 {
   display: none;
@@ -19,19 +20,19 @@ h1 {
 }
 .icon {
   padding: 0;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 29px;
 }
 li {
   list-style: none;
 }
 .information {
-  font-family: Lato;
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0.03em;
   margin: 0;
-  width: 320px;
+  min-width: 320px;
   text-align: center;
   height: 119px;
   line-height: 40px;
@@ -42,12 +43,25 @@ li {
 .description {
   height: 70px;
   width: 320px;
-  font-size: 16px;
-  font-family: Lato;
+  text-align: center;
   font-style: normal;
   font-weight: normal;
+  font-size: 16px;
   line-height: 23px;
-  text-align: center;
-  color: #4F4F4F;
-  padding-bottom: 50px;
+  margin: 0;
 }
+.icon {
+  margin: 0;
+  padding-top: 50px;
+}
+
+.icon__apple--list {
+
+}
+
+
+/* @media(min-width: 360px) {
+  body {
+    background-image: url(../img/bg_header.png);
+  }
+} */
