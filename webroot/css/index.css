@@ -61,7 +61,7 @@ li {
   height: 44px;
 }
 
-@media(min-width: 360px) {
+@media(min-width: 1260px) {
   /* body {
     background-image: url(../img/bg_header.png);
   } */
@@ -80,18 +80,24 @@ li {
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    display: flex;
-    align-items: flex-end;
     letter-spacing: 0.03em;
-    color: #333333;
     margin: 0;
     width: 546px;
     text-align: left;
     padding-left: 163px;
     height: 119px;
     line-height: 40px;
-    font-size: 30px;
     color: #4F4F4F;
     padding-bottom: 30px;
+  }
+  .description {
+    height: 70px;
+    width: 453px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0;
   }
 }
