@@ -22,10 +22,18 @@ h1 {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 29px;
+  gap: 28,61px;
 }
 li {
   list-style: none;
+}
+.icon__google--image {
+  width: 145.69px;
+  height: 44px;
+}
+.icon__apple--image {
+  width: 145.69px;
+  height: 44px;
 }
 .information {
   font-style: normal;
