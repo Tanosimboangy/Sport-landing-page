@@ -2,6 +2,14 @@
   --padding: 2px;
   --width: 2px;
 }
+@font-face {
+  font-family: lato;
+  font-weight: bold;
+  src: url(../fonts/AnyConv.com__Lato-Bold.woff2);
+  font-family: lato;
+  font-weight: normal;
+  src: url(../fonts/AnyConv.com__Lato-Regular.woff2);
+}
 body {
   background: #F4F6F9;
 }
@@ -18,8 +26,9 @@ h1 {
   text-align: center;
 }
 .information {
-  font-style: normal;
+  font-family: lato;
   font-weight: bold;
+  font-style: normal;
   letter-spacing: 0.03em;
   margin: 0;
   min-width: 320px;
@@ -61,7 +70,7 @@ li {
   height: 44px;
 }
 
-@media(min-width: 1260px) {
+@media(min-width: 700px) {
   /* body {
     background-image: url(../img/bg_header.png);
   } */
