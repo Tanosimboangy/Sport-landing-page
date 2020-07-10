@@ -9,9 +9,10 @@
 
 @font-face {
   font-family: lato;
-  font-weight: bold;
-  src: url(../fonts/AnyConv.com__Lato-Bold.woff2),
- url(../fonts/AnyConv.com__Lato-Regular.woff2);
+  src: url(../fonts/AnyConv.com__Lato-Bold.woff),
+       url(../fonts/AnyConv.com__Lato-Regular.woff),
+       url(../fonts/AnyConv.com__Lato-Bold.woff2),
+       url(../fonts/AnyConv.com__Lato-Regular.woff2);
 }
 
 body {
@@ -49,6 +50,7 @@ h1 {
 }
 
 .description {
+  font-family: lato;
   height: 70px;
   min-width: 320px;
   text-align: center;
