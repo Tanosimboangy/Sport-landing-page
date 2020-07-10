@@ -90,11 +90,12 @@ li {
 @media(min-width: 700px) {
   body {
     background-image: url(../img/bg_header.png);
-    background-size: 75%;
-    background-position: right;
+    background-size: 70%;
     background-repeat: no-repeat;
-    width: 900px;
-    height: 465px;
+    background-position: 134% 160%;
+  }
+  main {
+    overflow: visible;
   }
   .sport__logo {
     width: 92px;
