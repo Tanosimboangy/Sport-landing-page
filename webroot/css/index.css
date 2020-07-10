@@ -1,30 +1,38 @@
+/* html {
+  position: relative;
+} */
+
 :root  {
   --padding: 2px;
   --width: 2px;
 }
+
 @font-face {
   font-family: lato;
   font-weight: bold;
-  src: url(../fonts/AnyConv.com__Lato-Bold.woff2);
-  font-family: lato;
-  font-weight: normal;
-  src: url(../fonts/AnyConv.com__Lato-Regular.woff2);
+  src: url(../fonts/AnyConv.com__Lato-Bold.woff2),
+ url(../fonts/AnyConv.com__Lato-Regular.woff2);
 }
+
 body {
   background: #F4F6F9;
 }
+
 h1 {
   display: none;
 }
+
 .sport__logo {
   width: 186px;
   padding-top: 29px;
   padding-bottom: 29px;
 }
+
 .sport {
   margin: 0;
   text-align: center;
 }
+
 .information {
   font-family: lato;
   font-weight: bold;
@@ -39,16 +47,20 @@ h1 {
   color: #4F4F4F;
   padding-bottom: 33px;
 }
+
 .description {
   height: 70px;
-  width: 320px;
+  min-width: 320px;
   text-align: center;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 23px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0;
 }
+
 .icon {
   width: 319.99px;
   display: grid;
@@ -58,13 +70,16 @@ h1 {
   padding-left: 12px;
   padding-top: 50px;
 }
+
 li {
   list-style: none;
 }
+
 .icon__google--image {
   width: 145.69px;
   height: 44px;
 }
+
 .icon__apple--image {
   width: 145.69px;
   height: 44px;
@@ -72,41 +87,51 @@ li {
 
 @media(min-width: 700px) {
   /* body {
+    position: absolute;
     background-image: url(../img/bg_header.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: right top;
+    right: auto;
+    overflow: hidden;
+
   } */
   .sport__logo {
-    width: 186px;
+    width: 92px;
+    height: 32px;
     padding-top: 61px;
     padding-left: 158px;
-    padding-bottom: 29px;
+    padding-bottom: 133px;
   }
   .sport {
     margin: 0;
     text-align: left;
   }
   .information {
-    font-family: Lato;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    letter-spacing: 0.03em;
-    margin: 0;
     width: 546px;
     text-align: left;
     padding-left: 163px;
-    height: 119px;
-    line-height: 40px;
-    color: #4F4F4F;
+    height: 96px;
     padding-bottom: 30px;
+    line-height: 48px;
+    color: #333333;
   }
   .description {
-    height: 70px;
+    height: 52px;
     width: 453px;
-    text-align: center;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 23px;
-    margin: 0;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4F4F4F;
+    text-align: left;
+    padding-left: 163px;
+    padding-bottom: 50px;
+  }
+  .icon {
+    width: 319.99px;
+    padding-left: 163px;
+    padding-bottom: 164px;
   }
 }
