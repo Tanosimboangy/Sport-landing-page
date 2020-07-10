@@ -1,6 +1,6 @@
-/* html {
+html {
   position: relative;
-} */
+}
 
 :root  {
   --padding: 2px;
@@ -88,16 +88,14 @@ li {
 }
 
 @media(min-width: 700px) {
-  /* body {
-    position: absolute;
+  body {
     background-image: url(../img/bg_header.png);
+    background-size: 75%;
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: 65%;
-    background-position: right top;
-    right: auto;
-    overflow: hidden;
-
-  } */
+    width: 900px;
+    height: 465px;
+  }
   .sport__logo {
     width: 92px;
     height: 32px;
@@ -132,8 +130,22 @@ li {
     padding-bottom: 50px;
   }
   .icon {
-    width: 319.99px;
+    width: 348px;
     padding-left: 163px;
     padding-bottom: 164px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35.9px;
+  }
+
+  .icon__google--image {
+    width: 145.69px;
+    height: 44px;
+  }
+
+  .icon__apple--image {
+    width: 145.69px;
+    height: 44px;
   }
 }
