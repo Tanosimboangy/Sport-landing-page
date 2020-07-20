@@ -1,0 +1,35 @@
+h1 {
+  display: none;
+}
+
+.information {
+  font-family: lato;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  margin: 0;
+  min-width: 320px;
+  text-align: center;
+  height: 119px;
+  line-height: 40px;
+  font-size: 30px;
+  color: #4F4F4F;
+  padding-bottom: 33px;
+}
+
+
+@media(min-width: 900px) {
+  .information {
+    font-weight: bold;
+    font-size: 36px;
+    width: 546px;
+    text-align: left;
+    padding-left: 163px;
+    height: 96px;
+    padding-bottom: 30px;
+    line-height: 48px;
+    color: #333333;
+  }
+}
+
+
