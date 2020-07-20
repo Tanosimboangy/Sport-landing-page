@@ -1,0 +1,24 @@
+.sport__logo {
+  width: 186px;
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+
+.sport {
+  margin: 0;
+  text-align: center;
+}
+
+@media(min-width: 900px) {
+  .sport__logo {
+    width: 92px;
+    height: 32px;
+    padding-top: 61px;
+    padding-left: 158px;
+    padding-bottom: 133px;
+  }
+  .sport {
+    margin: 0;
+    text-align: left;
+  }
+}
