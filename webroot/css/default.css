@@ -1,0 +1,25 @@
+html {
+  position: relative;
+}
+
+:root  {
+  --padding: 2px;
+  --width: 2px;
+}
+
+body {
+  background: #F4F6F9;
+}
+
+
+@media(min-width: 900px) {
+  body {
+    background-image: url(../img/bg_header.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 131% 165%;
+  }
+  main {
+    overflow: visible;
+  }
+}
