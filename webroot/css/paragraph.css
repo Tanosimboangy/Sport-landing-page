@@ -1,4 +1,4 @@
-.description {
+p {
   font-family: lato;
   height: 70px;
   min-width: 320px;
@@ -13,7 +13,7 @@
 }
 
 @media(min-width: 900px) {
-  .description {
+  p {
     height: 52px;
     width: 453px;
     font-family: Lato;

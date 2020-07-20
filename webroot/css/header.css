@@ -1,8 +1,4 @@
-h1 {
-
-}
-
-.information {
+h2 {
   font-family: lato;
   font-weight: bold;
   font-style: normal;
@@ -19,7 +15,7 @@ h1 {
 
 
 @media(min-width: 900px) {
-  .information {
+  h2 {
     font-weight: bold;
     font-size: 36px;
     width: 546px;
