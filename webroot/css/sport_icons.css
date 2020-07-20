@@ -1,0 +1,46 @@
+
+.icon {
+  width: 319.99px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28.62px;
+  margin: 0;
+  padding-left: 12px;
+  padding-top: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+.icon__google--image {
+  width: 145.69px;
+  height: 44px;
+}
+
+.icon__apple--image {
+  width: 145.69px;
+  height: 44px;
+}
+
+@media(min-width: 900px) {
+  .icon {
+    width: 348px;
+    padding-left: 163px;
+    padding-bottom: 164px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35.9px;
+  }
+
+  .icon__google--image {
+    width: 145.69px;
+    height: 44px;
+  }
+
+  .icon__apple--image {
+    width: 145.69px;
+    height: 44px;
+  }
+}
