@@ -1,31 +1,24 @@
-h2 {
-  font-family: lato;
-  font-weight: bold;
-  font-style: normal;
-  letter-spacing: 0.03em;
+.logo {
+  padding-top: 30px;
+  padding-bottom: 50px;
   margin: 0;
-  min-width: 320px;
   text-align: center;
-  height: 119px;
-  line-height: 40px;
-  font-size: 30px;
-  color: #4F4F4F;
-  padding-bottom: 33px;
 }
 
+.logo img {
+  width: 186px;
+  height: 70px;
+}
 
 @media(min-width: 900px) {
-  h2 {
-    font-weight: bold;
-    font-size: 36px;
-    width: 546px;
+  .logo {
+    width: 92px;
+    height: 32px;
+    padding-top: 61px;
+    padding-left: 158px;
+    padding-bottom: 133px;
+    margin: 0;
     text-align: left;
-    padding-left: 163px;
-    height: 96px;
-    padding-bottom: 30px;
-    line-height: 48px;
-    color: #333333;
   }
 }
-
 
