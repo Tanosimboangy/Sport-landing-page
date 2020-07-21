@@ -1,0 +1,23 @@
+.content_page {
+  height: 70px;
+  min-width: 320px;
+  font-size: 16px;
+  line-height: 23px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+}
+
+@media(min-width: 900px) {
+  .content_page {
+    height: 52px;
+    width: 453px;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4F4F4F;
+    text-align: left;
+    padding-left: 163px;
+    padding-bottom: 50px;
+  }
+}
