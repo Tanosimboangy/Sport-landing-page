@@ -1,6 +1,8 @@
 @import "default.css";
-@import "header.css";
-@import "sport_logo.css";
-@import "paragraph.css";
-@import "sport_icons.css";
 @import "fonts.css";
+@import "header.css";
+@import "masthead.css";
+@import "paragraph_content.css";
+@import "icon_buttons.css";
+@import "alinging_items.css";
+
