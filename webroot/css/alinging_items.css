@@ -1,0 +1,15 @@
+.alinging_items {
+  display: flex;
+  flex-direction: row;
+  max-width: 417.23px;
+  margin: 0;
+  padding-left: 12px;
+  padding-top: 50px;
+}
+
+@media(min-width: 900px) {
+  .alinging_items {
+    padding-left: 3px;
+    padding-bottom: 164px;
+  }
+}
