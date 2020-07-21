@@ -10,7 +10,7 @@
   height: 70px;
 }
 
-@media(min-width: 900px) {
+@media(min-width: 720px) {
   .logo {
     width: 92px;
     height: 32px;
