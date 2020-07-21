@@ -1,0 +1,15 @@
+.float_row {
+  list-style: none;
+}
+
+.float_row a {
+  width: 145.69px;
+  height: 44px;
+}
+
+@media(min-width: 900px) {
+  .float_row a {
+    width: 145.69px;
+    height: 44px;
+  }
+}
