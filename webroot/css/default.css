@@ -5,6 +5,7 @@
 
 html {
   position: relative;
+  margin: 0;
 }
 
 body {
@@ -13,14 +14,15 @@ body {
   text-align: center;
   font-style: normal;
   font-weight: normal;
+  margin: 0;
 }
 
 
-/* @media(min-width: 900px) {
+@media(min-width: 900px) {
   body {
     background-image: url(../img/bg_header.png);
-    background-size: 70%;
+    background-size: 68%;
     background-repeat: no-repeat;
     background-position: 131% 165%;
   }
-} */
+}
