@@ -1,0 +1,23 @@
+.float_row {
+  min-width: calc(var(--width) * 9.105625);
+  min-height: calc(var(--padding) * 2.75);
+  list-style: none;
+}
+
+.icon__google_play {
+  padding-left: calc(var(--padding) * 14.305);
+}
+
+span {
+  display: none;
+}
+
+@media(min-width: 900px) {
+  .float_row {
+    width: calc(var(--width) * 9.753125);
+    height: calc(var(--padding) * 2.9375);
+  }
+  .icon__google_play {
+    padding-left: calc(var(--padding) * 17.95);
+  }
+}

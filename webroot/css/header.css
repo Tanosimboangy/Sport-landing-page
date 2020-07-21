@@ -1,22 +1,22 @@
 .logo {
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: calc(var(--padding) * 15);
+  padding-bottom: calc(var(--padding) * 25);
   margin: 0;
   text-align: center;
 }
 
 .logo img {
-  width: 186px;
-  height: 70px;
+  width: calc(var(--width) * 11.625);
+  height: calc(var(--height) * 4.375);
 }
 
-@media(min-width: 720px) {
+@media(min-width: 900px) {
   .logo {
-    width: 92px;
-    height: 32px;
-    padding-top: 61px;
-    padding-left: 158px;
-    padding-bottom: 133px;
+    width: calc(var(--width) * 5.75);
+    height: calc(var(--height) * 2);
+    padding-top: calc(var(--padding) * 30.5);
+    padding-left: calc(var(--padding) * 79);
+    padding-bottom: calc(var(--padding) * 66.5);
     margin: 0;
     text-align: left;
   }

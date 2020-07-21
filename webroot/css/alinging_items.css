@@ -1,17 +1,17 @@
 .alinging_items {
   display: flex;
   flex-direction: row;
-  max-width: 360px;
+  max-width: calc(var(--width) * 22.5);
   margin: 0;
-  padding-top: 50px;
-  padding-bottom: 59px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: calc(var(--padding) * 25);
+  padding-bottom: calc(var(--padding) * 29.5);
+  padding-left: calc(var(--padding) * 10);
+  padding-right: calc(var(--padding) * 10);
 }
 
 @media(min-width: 900px) {
   .alinging_items {
-    padding-left: 163px;
-    padding-bottom: 164px;
+    padding-left: calc(var(--padding) * 81.5);
+    padding-bottom: calc(var(--padding) * 82);
   }
 }

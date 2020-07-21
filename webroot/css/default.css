@@ -1,6 +1,7 @@
 :root  {
   --padding: 2px;
-  --width: 2px;
+  --width: 16px;
+  --height: var(--width);
 }
 
 html {
@@ -23,7 +24,7 @@ body {
     background-size: 68%;
     background-repeat: no-repeat;
     background-position: 131% 110%;
-    width: 993px;
-    height: 668px;
+    width: calc(var(--width) * 62.0625);
+    height: calc(var(--height) * 41.75);
   }
 }

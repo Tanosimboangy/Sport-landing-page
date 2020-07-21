@@ -1,26 +1,26 @@
 .heading_page {
   font-weight: bold;
-  letter-spacing: 0.03em;
+  letter-spacing: calc(var(--padding) * 0.24);
   margin: 0;
-  min-width: 320px;
+  min-width: calc(var(--width) * 20);
   text-align: center;
-  height: 119px;
-  line-height: 40px;
-  font-size: 30px;
+  height: calc(var(--height) * 7.4375);
+  line-height: calc(var(--padding) * 20);
+  font-size: calc(var(--padding) * 15);
   color: #4F4F4F;
-  padding-bottom: 33px;
+  padding-bottom: calc(var(--padding) * 16.5);
 }
 
 
 @media(min-width: 900px) {
   .heading_page {
-    font-size: 36px;
-    width: 546px;
+    font-size: calc(var(--padding) * 18);
+    width: calc(var(--width) * 34.125);
     text-align: left;
-    padding-left: 163px;
-    height: 96px;
-    padding-bottom: 30px;
-    line-height: 48px;
+    padding-left: calc(var(--padding) * 81.5);
+    height: calc(var(--height) * 6);
+    padding-bottom: calc(var(--padding) * 15);
+    line-height: calc(var(--padding) * 24);
     color: #333333;
   }
 }
