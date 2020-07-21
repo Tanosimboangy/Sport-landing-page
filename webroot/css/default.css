@@ -22,6 +22,8 @@ body {
     background-image: url(../img/bg_header.png);
     background-size: 68%;
     background-repeat: no-repeat;
-    background-position: 131% 165%;
+    background-position: 131% 110%;
+    width: 993px;
+    height: 668px;
   }
 }
