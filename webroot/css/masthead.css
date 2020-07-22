@@ -11,14 +11,12 @@
   padding-bottom: calc(var(--padding) * 16.5);
 }
 
-
 @media(min-width: 900px) {
   .heading_page {
     font-size: calc(var(--padding) * 18);
-    width: calc(var(--width) * 34.125);
+    max-width: calc(var(--width) * 34.125);
     text-align: left;
-    padding-left: calc(var(--padding) * 81.5);
-    height: calc(var(--height) * 6);
+    max-height: calc(var(--height) * 6);
     padding-bottom: calc(var(--padding) * 15);
     line-height: calc(var(--padding) * 24);
     color: #333333;

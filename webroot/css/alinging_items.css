@@ -1,17 +1,14 @@
 .alinging_items {
   display: flex;
   flex-direction: row;
-  max-width: calc(var(--width) * 22.5);
-  margin: 0;
+  min-width: calc(var(--width) * 22.5);
   padding-top: calc(var(--padding) * 25);
   padding-bottom: calc(var(--padding) * 29.5);
-  padding-left: calc(var(--padding) * 10);
-  padding-right: calc(var(--padding) * 10);
 }
 
 @media(min-width: 900px) {
   .alinging_items {
-    padding-left: calc(var(--padding) * 81.5);
-    padding-bottom: calc(var(--padding) * 82);
+    /* padding-left: calc(var(--padding) * 81.5); */
+    /* padding-bottom: calc(var(--padding) * 82); */
   }
 }

@@ -13,10 +13,10 @@ span {
 }
 
 @media(min-width: 900px) {
-  .float_row {
+  /* .float_row {
     width: calc(var(--width) * 9.753125);
     height: calc(var(--padding) * 2.9375);
-  }
+  } */
   .icon__google_play {
     padding-left: calc(var(--padding) * 17.95);
   }

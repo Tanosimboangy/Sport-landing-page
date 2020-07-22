@@ -3,9 +3,6 @@
   min-width: calc(var(--width) * 20);
   font-size: calc(var(--padding) * 8);
   line-height: calc(var(--padding) * 11.5);
-  padding-left: calc(var(--padding) * 10);
-  padding-right: calc(var(--padding) * 10);
-  margin: 0;
 }
 
 @media(min-width: 900px) {
@@ -17,7 +14,6 @@
     line-height: calc(var(--padding) * 13);
     color: #4F4F4F;
     text-align: left;
-    padding-left: calc(var(--padding) * 81.5);
     padding-bottom: calc(var(--padding) * 25);
   }
 }

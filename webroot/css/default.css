@@ -4,27 +4,24 @@
   --height: var(--width);
 }
 
-html {
-  position: relative;
-  margin: 0;
-}
-
 body {
   background: #F4F6F9;
   font-family: lato;
   text-align: center;
   font-style: normal;
   font-weight: normal;
-  margin: 0;
+  margin: auto;
 }
 
-@media(min-width: 900px) {
+@media(min-width: 1120px) {
   body {
-    background-image: url(../img/bg_header.png);
-    background-size: 68%;
+    background-image: url(../img/bg_header.935.png);
+    background-size: 60%;
     background-repeat: no-repeat;
-    background-position: 131% 110%;
-    width: calc(var(--width) * 62.0625);
-    height: calc(var(--height) * 41.75);
+    background-position: 35.3rem -8.8rem;
+    min-width: calc(var(--width) * 62.0625);
+    min-height: calc(var(--height) * 41.75);
+    max-width: 1114px;
+    margin: auto;
   }
 }
