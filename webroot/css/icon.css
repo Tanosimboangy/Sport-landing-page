@@ -1,23 +1,24 @@
 .float_row {
-  min-width: calc(var(--width) * 9.105625);
-  min-height: calc(var(--padding) * 2.75);
+  max-width: 140px;
+  max-height: 44px;
   list-style: none;
+  padding-left: 0;
 }
 
 .icon__google_play {
-  padding-left: calc(var(--padding) * 14.305);
+  margin-left: 32px;
 }
 
 span {
   display: none;
 }
 
-@media(min-width: 900px) {
+/* @media(min-width: 900px) {
   /* .float_row {
     width: calc(var(--width) * 9.753125);
     height: calc(var(--padding) * 2.9375);
   } */
-  .icon__google_play {
+  /* .icon__google_play {
     padding-left: calc(var(--padding) * 17.95);
   }
-}
+} */

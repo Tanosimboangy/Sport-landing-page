@@ -10,10 +10,9 @@ body {
   text-align: center;
   font-style: normal;
   font-weight: normal;
-  margin: auto;
 }
 
-@media(min-width: 1120px) {
+/* @media(min-width: 1120px) {
   body {
     background-image: url(../img/bg_header.935.png);
     background-size: 60%;
@@ -24,4 +23,4 @@ body {
     max-width: 1114px;
     margin: auto;
   }
-}
+} */
