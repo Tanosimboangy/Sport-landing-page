@@ -10,13 +10,13 @@
   height: calc(var(--height) * 4.375);
 }
 
-/* @media(min-width: 900px) {
+@media(min-width: 1120px) {
   .logo {
     max-width: calc(var(--width) * 5.75);
     max-height: calc(var(--height) * 2);
-    padding-top: calc(var(--padding) * 10.5);
-    /* padding-left: calc(var(--padding) * 79); */
-    /* padding-bottom: calc(var(--padding) * 40.5);
+    padding-top: calc(var(--padding) * 30.5);
+    padding-left: calc(var(--padding) * 70);
+    padding-bottom: calc(var(--padding) * 40.5);
     text-align: left;
   }
 }

@@ -10,17 +10,5 @@ body {
   text-align: center;
   font-style: normal;
   font-weight: normal;
+  margin: 0;
 }
-
-/* @media(min-width: 1120px) {
-  body {
-    background-image: url(../img/bg_header.935.png);
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: 35.3rem -8.8rem;
-    min-width: calc(var(--width) * 62.0625);
-    min-height: calc(var(--height) * 41.75);
-    max-width: 1114px;
-    margin: auto;
-  }
-} */

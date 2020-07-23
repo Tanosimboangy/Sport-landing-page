@@ -4,13 +4,17 @@
   max-width: calc(var(--width) * 22.5);
   padding-top: calc(var(--padding) * 25);
   padding-bottom: calc(var(--padding) * 29.5);
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: auto;
 }
 
-/* @media(min-width: 900px) {
+@media(min-width: 1120px) {
   .alinging_items {
-
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    padding-bottom: 150px;
+    padding-top: 12.5px;
   }
-} */
+}

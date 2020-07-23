@@ -11,13 +11,14 @@
   padding-bottom: calc(var(--padding) * 16.5);
 }
 
-/* @media(min-width: 900px) {
+@media(min-width: 1120px) {
   .heading_page {
     font-size: calc(var(--padding) * 18);
     max-width: calc(var(--width) * 34.125);
     text-align: left;
     max-height: calc(var(--height) * 6);
     padding-bottom: calc(var(--padding) * 15);
+    padding-top: 133px;
     line-height: calc(var(--padding) * 24);
     color: #333333;
   }
@@ -25,4 +26,13 @@
     max-width: 1114px;
     margin: auto;
   }
-} */
+
+  main > header {
+    background-image: url(../img/bg_header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-X: calc(50vw - 11px);
+    background-position-y: -10px;
+  }
+}
+

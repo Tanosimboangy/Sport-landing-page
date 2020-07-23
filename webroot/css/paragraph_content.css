@@ -6,15 +6,16 @@
   margin: auto;
 }
 
-/* @media(min-width: 900px) {
+@media(min-width: 1120px) {
   .content_page {
-    height: calc(var(--height) * 3.25);
-    width: calc(var(--width) * 28.3125);
+    max-height: calc(var(--height) * 3.25);
+    max-width: calc(var(--width) * 28.3125);
     font-family: Lato;
     font-size: calc(var(--padding) * 9);
     line-height: calc(var(--padding) * 13);
     color: #4F4F4F;
     text-align: left;
     padding-bottom: calc(var(--padding) * 25);
+    margin: 0;
   }
-} */
+}
