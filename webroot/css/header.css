@@ -10,8 +10,13 @@
   height: calc(var(--height) * 4.375);
 }
 
+/* body header {
+
+} */
+
 @media(min-width: 1120px) {
   .logo {
+    position: absolute;
     max-width: calc(var(--width) * 5.75);
     max-height: calc(var(--height) * 2);
     padding-top: calc(var(--padding) * 30.5);
