@@ -1,3 +1,5 @@
+@import "variable";
+
 .content_page {
   height: calc(var(--height) * 4.375);
   min-width: 320px;
