@@ -73,3 +73,32 @@ Bonus points will be awarded for code that uses:
 - elegant (thoughtful) solutions to complex problems
 - going the extra mile (putting in more effort to push for high quality or delight)
 
+# Instruction for runnign sass
+
+- Make sure that your branch is clean
+- Create a new branch to run sass
+- Git push from your new branch
+
+### INSTALL 
+- Use "npm init" to create the package-json file in terminal
+- Git add => git commit => git push
+- Use "npm i -D node sass" to install node-sass
+- Create a .gitignore for the node-modules to be hidden
+      .gitignore => inside node-modules
+They should be done in visual studio code
+- Go to terminal in VSCode and add "npx node-sass"
+- Create the css "scripts" in package.json
+
+## RUN SASS 
+- npx node-sass
+- npm run css 
+- npm run css:watch 
+
+
+
+
+
+
+
+
+
