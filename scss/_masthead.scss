@@ -1,3 +1,5 @@
+@import "variable";
+
 .heading_page {
   font-weight: bold;
   letter-spacing: calc(var(--padding) * 0.24);
@@ -7,7 +9,7 @@
   height: calc(var(--height) * 7.4375);
   line-height: calc(var(--padding) * 20);
   font-size: calc(var(--padding) * 15);
-  color: #4F4F4F;
+  $primary-color-heading: #3333;
   padding-bottom: calc(var(--padding) * 16.5);
 }
 
@@ -20,7 +22,7 @@
     padding-bottom: calc(var(--padding) * 15);
     padding-top: 133px;
     line-height: calc(var(--padding) * 24);
-    color: #333333;
+    $primary-color-heading: #3333;
   }
   .container {
     max-width: 1114px;
