@@ -1,15 +1,19 @@
 @import "variable";
 
+$max-width: calc(var($max-width) * 10.625px);
+
+
 .logo {
   padding-top: $padding-top;
   padding-bottom: $padding-bottom;
-  text-align: $text-aling-center;
+  text-align: text-aling-center;
   margin: $margin;
   img {
-    max-width: calc(var(--width) * 11.625);
-    height: calc(var(--height) * 4.375);
+    max-width: $max-width;
+    height: 70px;
   }
 }
+
 
 // @media(min-width: 1120px) {
 //   .logo {

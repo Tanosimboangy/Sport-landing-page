@@ -13,11 +13,11 @@ body {
 .logo {
   padding-top: 30px;
   padding-bottom: 50px;
-  text-align: center;
+  text-align: text-aling-center;
   margin: 0; }
   .logo img {
-    max-width: calc(var(--width) * 11.625);
-    height: calc(var(--height) * 4.375); }
+    max-width: calc(var($max-width) * 10.625px);
+    height: 70px; }
 
 .heading_page {
   font-weight: bold;
@@ -54,7 +54,8 @@ body {
   min-width: 320px;
   font-size: calc(var(--padding) * 8);
   line-height: calc(var(--padding) * 11.5);
-  margin: auto; }
+  margin: auto;
+  color: #333333; }
 
 @media (min-width: 1120px) {
   .content_page {
