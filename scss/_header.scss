@@ -1,8 +1,13 @@
 @import "variable";
-$padding-top: calc(#{$padding * 15});
-$padding-bottom: calc(#{$padding * 25});
+$padding-top: calc(#{$padding * 12});
+$padding-top-media: calc(#{$padding * 30.5});
+$padding-bottom: calc(#{$padding * 20});
+$padding-left: calc(#{$padding * 70});
+$padding-bottom-media: calc(#{$padding * 40.5});
 $max-height: calc(#{$max-height * 4.75});
+$max-height-media: calc(#{$max-height * 2});
 $max-width: calc(#{$max-width * 11.625});
+$max-width-media: calc(#{$max-width * 5.75});
 
 
 .logo {
@@ -17,15 +22,14 @@ $max-width: calc(#{$max-width * 11.625});
 }
 
 
-// @media(min-width: 1120px) {
-//   .logo {
-//     position: absolute;
-//     max-width: calc(var(--width) * 5.75);
-//     max-height: calc(var(--height) * 2);
-//     padding-top: calc(var(--padding) * 30.5);
-//     padding-left: calc(var(--padding) * 70);
-//     padding-bottom: calc(var(--padding) * 40.5);
-//     text-align: left;
-//   }
-// }
+@media(min-width: 1120px) {
+  .logo {
+    position: absolute;
+    max-width: $max-width-media;
+    max-height: $max-height-media;
+    padding-top: $padding-top-media;
+    padding-left: $padding-left;
+    padding-bottom: $padding-bottom-media;
+  }
+}
 
