@@ -34,24 +34,12 @@ body {
   padding-bottom: calc(33px); }
 
 .content_page {
-  height: calc(var(--height) * 4.375);
-  min-width: 320px;
-  font-size: calc(var(--padding) * 8);
-  line-height: calc(var(--padding) * 11.5);
+  height: calc(70px);
+  min-width: calc(320px);
+  font-size: calc(16px);
+  line-height: calc(23px);
   margin: auto;
-  color: #333333; }
-
-@media (min-width: 1120px) {
-  .content_page {
-    max-height: calc(var(--height) * 3.25);
-    max-width: calc(var(--width) * 28.3125);
-    font-family: Lato;
-    font-size: calc(var(--padding) * 9);
-    line-height: calc(var(--padding) * 13);
-    color: #4F4F4F;
-    text-align: left;
-    padding-bottom: calc(var(--padding) * 25);
-    margin: 0; } }
+  color: #4F4F4F; }
 
 .float_row {
   max-width: 140px;
