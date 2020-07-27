@@ -1,40 +1,51 @@
 @import "variable";
+$min-width: calc(#{$max-width * 20});
+// $letter-spacing: calc(#{$padding / });
+$heigth: calc(#{$max-height * 7.4375});
+$line-height: calc(#{$padding * 20});
+$font-size: calc(#{$padding * 15});
+$padding-bottom: calc(#{$padding * 16.5});
+$padding-left: calc(#{$padding * 10});
+$padding-right: calc(#{$padding * 10});
+
 
 .heading_page {
   font-weight: bold;
   letter-spacing: calc(var(--padding) * 0.24);
-  margin: 0;
-  min-width: calc(var(--width) * 20);
-  text-align: center;
-  height: calc(var(--height) * 7.4375);
-  line-height: calc(var(--padding) * 20);
-  font-size: calc(var(--padding) * 15);
-  $primary-color-heading: #3333;
-  padding-bottom: calc(var(--padding) * 16.5);
+  margin: $margin;
+  min-width: $min-width;
+  text-align: $text-aling-center;
+  height: $heigth;
+  line-height: $line-height;
+  font-size: $font-size;
+  color: $color;
+  padding-left: $padding-left;
+  padding-right: $padding-right;
+  padding-bottom: $padding-bottom;
 }
 
-@media(min-width: 1120px) {
-  .heading_page {
-    font-size: calc(var(--padding) * 18);
-    max-width: calc(var(--width) * 34.125);
-    text-align: left;
-    max-height: calc(var(--height) * 6);
-    padding-bottom: calc(var(--padding) * 15);
-    padding-top: 133px;
-    line-height: calc(var(--padding) * 24);
-    $primary-color-heading: #3333;
-  }
-  .container {
-    max-width: 1114px;
-    margin: auto;
-  }
+// @media(min-width: 1120px) {
+//   .heading_page {
+//     font-size: calc(var(--padding) * 18);
+//     max-width: calc(var(--width) * 34.125);
+//     text-align: left;
+//     max-height: calc(var(--height) * 6);
+//     padding-bottom: calc(var(--padding) * 15);
+//     padding-top: 133px;
+//     line-height: calc(var(--padding) * 24);
+//     $primary-color-heading: #3333;
+//   }
+//   .container {
+//     max-width: 1114px;
+//     margin: auto;
+//   }
 
-  main > header {
-    background-image: url(../img/bg_header.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-X: calc(50vw - 11px);
-    background-position-y: -10px;
-  }
-}
+//   main > header {
+//     background-image: url(../img/bg_header.png);
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     background-position-X: calc(50vw - 11px);
+//     background-position-y: -10px;
+//   }
+// }
 
