@@ -1,24 +1,32 @@
 @import "variable";
+$min-width: calc(#{$max-width * 20});
+$heigth: calc(#{$max-height * 4.375});
+$line-height: calc(#{$padding * 11.5});
+$font-size: calc(#{$padding * 8});
+$padding-bottom: calc(#{$padding * 16.5});
+$padding-left: calc(#{$padding * 10});
+$padding-right: calc(#{$padding * 10});
+
 
 .content_page {
-  height: calc(var(--height) * 4.375);
-  min-width: 320px;
-  font-size: calc(var(--padding) * 8);
-  line-height: calc(var(--padding) * 11.5);
-  margin: auto;
-  color:#333333;;
+  height: $heigth;
+  min-width: $min-width;
+  font-size: $font-size;
+  line-height: $line-height;
+  margin: $margin-auto;
+  color: $color-paragraph;
 }
 
-@media(min-width: 1120px) {
-  .content_page {
-    max-height: calc(var(--height) * 3.25);
-    max-width: calc(var(--width) * 28.3125);
-    font-family: Lato;
-    font-size: calc(var(--padding) * 9);
-    line-height: calc(var(--padding) * 13);
-    color: #4F4F4F;
-    text-align: left;
-    padding-bottom: calc(var(--padding) * 25);
-    margin: 0;
-  }
-}
+// @media(min-width: 1120px) {
+//   .content_page {
+//     max-height: calc(var(--height) * 3.25);
+//     max-width: calc(var(--width) * 28.3125);
+//     font-family: Lato;
+//     font-size: calc(var(--padding) * 9);
+//     line-height: calc(var(--padding) * 13);
+//     color: #4F4F4F;
+//     text-align: left;
+//     padding-bottom: calc(var(--padding) * 25);
+//     margin: 0;
+//   }
+// }
