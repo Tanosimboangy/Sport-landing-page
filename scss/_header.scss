@@ -1,16 +1,18 @@
 @import "variable";
-
-$max-width: calc(var($max-width) * 10.625px);
+$padding-top: calc(#{$padding * 15});
+$padding-bottom: calc(#{$padding * 25});
+$max-height: calc(#{$max-height * 4.75});
+$max-width: calc(#{$max-width * 11.625});
 
 
 .logo {
   padding-top: $padding-top;
   padding-bottom: $padding-bottom;
-  text-align: text-aling-center;
+  text-align: $text-aling-center;
   margin: $margin;
   img {
     max-width: $max-width;
-    height: 70px;
+    height: $max-height;
   }
 }
 

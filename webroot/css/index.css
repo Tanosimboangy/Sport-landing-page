@@ -11,13 +11,13 @@ body {
   src: local(lato), url(../fonts/AnyConv.com__Lato-Bold.woff), url(../fonts/AnyConv.com__Lato-Regular.woff), url(../fonts/AnyConv.com__Lato-Bold.woff2), url(../fonts/AnyConv.com__Lato-Regular.woff2); }
 
 .logo {
-  padding-top: 30px;
-  padding-bottom: 50px;
-  text-align: text-aling-center;
+  padding-top: calc(30px);
+  padding-bottom: calc(50px);
+  text-align: center;
   margin: 0; }
   .logo img {
-    max-width: calc(var($max-width) * 10.625px);
-    height: 70px; }
+    max-width: calc(186px);
+    height: calc(76px); }
 
 .heading_page {
   font-weight: bold;
