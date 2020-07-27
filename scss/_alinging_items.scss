@@ -1,14 +1,23 @@
 @import "variable";
+$max-width: calc(#{$max-width * 22.5});
+$heigth: calc(#{$max-height * 4.375});
+$line-height: calc(#{$padding * 11.5});
+$font-size: calc(#{$padding * 8});
+$padding-bottom: calc(#{$padding * 29.5});
+$padding-top: calc(#{$padding * 25});
+$padding-left: calc(#{$padding * 8});
+$padding-right: calc(#{$padding * 8});
+
 
 .alinging_items {
   display: flex;
   flex-direction: row;
-  max-width: calc(var(--width) * 22.5);
-  padding-top: calc(var(--padding) * 25);
-  padding-bottom: calc(var(--padding) * 29.5);
-  padding-left: 16px;
-  padding-right: 16px;
-  margin: auto;
+  max-width: $max-width;
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+  padding-left: $padding-left;
+  padding-right: $padding-right;
+  margin: $margin-auto;
 }
 
 @media(min-width: 1120px) {

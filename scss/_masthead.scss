@@ -1,10 +1,13 @@
 @import "variable";
 $min-width: calc(#{$max-width * 20});
-// $letter-spacing: calc(#{$padding / });
+$min-width-media: calc(#{$max-width * 34.125});
 $heigth: calc(#{$max-height * 7.4375});
 $line-height: calc(#{$padding * 20});
+$line-height-media: calc(#{$padding * 24});
 $font-size: calc(#{$padding * 15});
+$font-size-media: calc(#{$padding * 18});
 $padding-bottom: calc(#{$padding * 16.5});
+$padding-bottom-media: calc(#{$padding * 15});
 $padding-left: calc(#{$padding * 10});
 $padding-right: calc(#{$padding * 10});
 
@@ -24,28 +27,28 @@ $padding-right: calc(#{$padding * 10});
   padding-bottom: $padding-bottom;
 }
 
-// @media(min-width: 1120px) {
-//   .heading_page {
-//     font-size: calc(var(--padding) * 18);
-//     max-width: calc(var(--width) * 34.125);
-//     text-align: left;
-//     max-height: calc(var(--height) * 6);
-//     padding-bottom: calc(var(--padding) * 15);
-//     padding-top: 133px;
-//     line-height: calc(var(--padding) * 24);
-//     $primary-color-heading: #3333;
-//   }
-//   .container {
-//     max-width: 1114px;
-//     margin: auto;
-//   }
+@media(min-width: 1120px) {
+  .heading_page {
+    font-size: $font-size-media;
+    max-width: $min-width-media;
+    text-align: left;
+    max-height: calc(var(--height) * 6);
+    padding-bottom: $padding-bottom-media;
+    padding-top: 133px;
+    line-height: $line-height-media;
+    $primary-color-heading: #3333;
+  }
+  .container {
+    max-width: 1114px;
+    margin: $margin-auto;
+  }
 
-//   main > header {
-//     background-image: url(../img/bg_header.png);
-//     background-size: contain;
-//     background-repeat: no-repeat;
-//     background-position-X: calc(50vw - 11px);
-//     background-position-y: -10px;
-//   }
-// }
+  main > header {
+    background-image: url(../img/bg_header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-X: calc(50vw - 11px);
+    background-position-y: -10px;
+  }
+}
 

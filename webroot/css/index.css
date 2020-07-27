@@ -33,6 +33,25 @@ body {
   padding-right: calc(20px);
   padding-bottom: calc(33px); }
 
+@media (min-width: 1120px) {
+  .heading_page {
+    font-size: calc(36px);
+    max-width: calc(546px);
+    text-align: left;
+    max-height: calc(var(--height) * 6);
+    padding-bottom: calc(30px);
+    padding-top: 133px;
+    line-height: calc(48px); }
+  .container {
+    max-width: 1114px;
+    margin: auto; }
+  main > header {
+    background-image: url(../img/bg_header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-X: calc(50vw - 11px);
+    background-position-y: -10px; } }
+
 .content_page {
   height: calc(70px);
   min-width: calc(320px);
@@ -65,11 +84,11 @@ span {
 .alinging_items {
   display: flex;
   flex-direction: row;
-  max-width: calc(var(--width) * 22.5);
-  padding-top: calc(var(--padding) * 25);
-  padding-bottom: calc(var(--padding) * 29.5);
-  padding-left: 16px;
-  padding-right: 16px;
+  max-width: calc(360px);
+  padding-top: calc(50px);
+  padding-bottom: calc(59px);
+  padding-left: calc(16px);
+  padding-right: calc(16px);
   margin: auto; }
 
 @media (min-width: 1120px) {
