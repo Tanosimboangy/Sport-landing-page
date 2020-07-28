@@ -21,12 +21,12 @@ body {
 
 @media (min-width: 1120px) {
   .logo {
-    position: absolute;
-    max-width: calc(var(--width) * 5.75);
-    max-height: calc(var(--height) * 2);
-    padding-top: calc(var(--padding) * 30.5);
-    padding-left: calc(var(--padding) * 70);
-    padding-bottom: calc(var(--padding) * 40.5); } }
+    text-align: center;
+    max-width: calc(92px);
+    padding-right: calc(980px);
+    max-height: calc(32px);
+    padding-bottom: calc(30px);
+    margin: auto; } }
 
 .heading_page {
   font-weight: bold;

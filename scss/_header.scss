@@ -3,12 +3,12 @@ $padding-top: calc(#{$padding * 12});
 $padding-top-media: calc(#{$padding * 30.5});
 $padding-bottom: calc(#{$padding * 20});
 $padding-left: calc(#{$padding * 70});
-$padding-bottom-media: calc(#{$padding * 40.5});
-$max-height: calc(#{$max-height * 4.75});
+$padding-right: calc(#{$padding * 490});
+$padding-bottom-media: calc(#{$padding * 15});
+$max-height-normal: calc(#{$max-height * 4.75});
 $max-height-media: calc(#{$max-height * 2});
-$max-width: calc(#{$max-width * 11.625});
+$max-width-normal: calc(#{$max-width * 11.625});
 $max-width-media: calc(#{$max-width * 5.75});
-
 
 .logo {
   padding-top: $padding-top;
@@ -16,20 +16,19 @@ $max-width-media: calc(#{$max-width * 5.75});
   text-align: $text-aling-center;
   margin: $margin;
   img {
-    max-width: $max-width;
-    height: $max-height;
+    max-width: $max-width-normal;
+    height: $max-height-normal;
   }
 }
 
-
 @media(min-width: 1120px) {
   .logo {
-    position: absolute;
+    text-align: $text-aling-center;
     max-width: $max-width-media;
+    padding-right: $padding-right;
     max-height: $max-height-media;
-    padding-top: $padding-top-media;
-    padding-left: $padding-left;
     padding-bottom: $padding-bottom-media;
+    margin: $margin-auto;
   }
 }
 
