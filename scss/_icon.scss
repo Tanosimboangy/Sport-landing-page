@@ -1,26 +1,34 @@
 @import "variable";
+$max-width-normal: calc(#{$max-width * 8.75});
+$max-width-media: calc(#{$max-width * 9.8});
+$max-height-normal: calc(#{$max-height * 2.75});
+$max-height-media: calc(#{$padding * 2.9});
+$font-size-media: calc(#{$padding * 18});
+$padding-left: calc(#{$padding * 17.95});
+$margin-left: calc(#{$padding * 16});
+
 
 .float_row {
-  max-width: 140px;
-  max-height: 44px;
+  max-width: $max-width-normal;
+  max-height: $max-height-normal;
   list-style: none;
   padding-left: 0;
 }
 
 .icon__google_play {
-  margin-left: 32px;
+  margin-left: $margin-left;
 }
 
 span {
   display: none;
 }
 
-/* @media(min-width: 900px) {
-  /* .float_row {
-    width: calc(var(--width) * 9.753125);
-    height: calc(var(--padding) * 2.9375);
-  } */
-  /* .icon__google_play {
-    padding-left: calc(var(--padding) * 17.95);
+@media(min-width: 900px) {
+   .float_row {
+    width: $max-width-media;
+    height:$max-height-media;
   }
-} */
+  .icon__google_play {
+    padding-left: $padding-left;
+  }
+}
