@@ -1,6 +1,7 @@
 @import "variable";
-$min-width: calc(#{$max-width * 20});
-$min-width-media: calc(#{$max-width * 34.125});
+$min-width-normal: calc(#{$max-width * 20});
+$max-height-media: calc(#{$max-width * 6});
+$min-width-media: calc(#{$min-width * 34.125});
 $heigth: calc(#{$max-height * 7.4375});
 $line-height: calc(#{$padding * 20});
 $line-height-media: calc(#{$padding * 24});
@@ -8,6 +9,7 @@ $font-size: calc(#{$padding * 15});
 $font-size-media: calc(#{$padding * 18});
 $padding-bottom: calc(#{$padding * 16.5});
 $padding-bottom-media: calc(#{$padding * 15});
+$padding-top-media: calc(#{$padding * 66});
 $padding-left: calc(#{$padding * 10});
 $padding-right: calc(#{$padding * 10});
 
@@ -16,7 +18,7 @@ $padding-right: calc(#{$padding * 10});
   font-weight: bold;
   letter-spacing: calc(var(--padding) * 0.24);
   margin: $margin;
-  min-width: $min-width;
+  min-width: $min-width-normal;
   text-align: $text-aling-center;
   height: $heigth;
   line-height: $line-height;
@@ -31,17 +33,20 @@ $padding-right: calc(#{$padding * 10});
   .heading_page {
     font-size: $font-size-media;
     max-width: $min-width-media;
-    text-align: left;
-    max-height: calc(var(--height) * 6);
+    text-align: $text-aling-left;
+    max-height: $max-height-media;
     padding-bottom: $padding-bottom-media;
-    padding-top: 133px;
+    padding-top: $padding-top-media;
     line-height: $line-height-media;
     $primary-color-heading: #3333;
+    padding-left: 0;
+    padding-right: 0;
   }
   .container {
     max-width: 1114px;
     margin: $margin-auto;
   }
+
 
   main > header {
     background-image: url(../img/bg_header.png);
