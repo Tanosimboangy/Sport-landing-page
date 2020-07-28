@@ -13,6 +13,9 @@ $padding-top-media: calc(#{$padding * 66});
 $padding-left: calc(#{$padding * 10});
 $padding-right: calc(#{$padding * 10});
 
+header {
+  background: #F4F6F9;
+}
 
 .heading_page {
   font-weight: bold;

@@ -16,15 +16,13 @@ $padding-right: calc(#{$padding * 8});
   max-width: $max-width;
   padding-top: $padding-top;
   padding-bottom: $padding-bottom;
-  padding-left: $padding-left;
-  padding-right: $padding-right;
+  padding-left: 0;
+  padding-right: 0;
   margin: $margin-auto;
 }
 
 @media(min-width: 1120px) {
   .alinging_items {
-    padding-left: 0;
-    padding-right: 0;
     margin: 0;
     padding-bottom: $padding-bottom-media;
     padding-top: $padding-top-media;

@@ -2,10 +2,23 @@
 
 
 body {
-  background: #F4F6F9;
   font-family: lato;
   text-align: center;
   font-style: normal;
   font-weight: normal;
   overflow: visible;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 20px;
+  padding-right: 20px;
 }
