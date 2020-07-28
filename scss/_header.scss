@@ -1,9 +1,10 @@
 @import "variable";
+$font-size-media: calc(#{$padding * 6});
 $padding-top: calc(#{$padding * 12});
 $padding-top-media: calc(#{$padding * 30.5});
 $padding-bottom: calc(#{$padding * 20});
 $padding-left: calc(#{$padding * 70});
-$padding-right: calc(#{$padding * 490});
+$padding-right: calc(#{$padding * 505});
 $padding-bottom-media: calc(#{$padding * 15});
 $max-height-normal: calc(#{$max-height * 4.75});
 $max-height-media: calc(#{$max-height * 2});
@@ -27,8 +28,8 @@ $max-width-media: calc(#{$max-width * 5.75});
     max-width: $max-width-media;
     padding-right: $padding-right;
     max-height: $max-height-media;
+    font-size: $font-size-media;
     padding-bottom: $padding-bottom-media;
     margin: $margin-auto;
   }
 }
-
