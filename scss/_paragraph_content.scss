@@ -1,9 +1,15 @@
 @import "variable";
 $min-width: calc(#{$max-width * 20});
+$max-width-media: calc(#{$max-width * 28.3});
+$max-height-media: calc(#{$max-height * 3.25});
 $heigth: calc(#{$max-height * 4.375});
 $line-height: calc(#{$padding * 11.5});
+$line-height-media: calc(#{$padding * 13});
 $font-size: calc(#{$padding * 8});
+$font-size-media: calc(#{$padding * 9});
 $padding-bottom: calc(#{$padding * 16.5});
+$padding-bottom-media: calc(#{$padding * 20});
+$min-width-media: calc(#{$max-width * 34.125});
 
 
 .content_page {
@@ -15,16 +21,15 @@ $padding-bottom: calc(#{$padding * 16.5});
   color: $color-paragraph;
 }
 
-// @media(min-width: 1120px) {
-//   .content_page {
-//     max-height: calc(var(--height) * 3.25);
-//     max-width: calc(var(--width) * 28.3125);
-//     font-family: Lato;
-//     font-size: calc(var(--padding) * 9);
-//     line-height: calc(var(--padding) * 13);
-//     color: #4F4F4F;
-//     text-align: left;
-//     padding-bottom: calc(var(--padding) * 25);
-//     margin: 0;
-//   }
-// }
+@media(min-width: 1120px) {
+  .content_page {
+    max-height: $max-height-media;
+    max-width: $max-width-media;
+    font-family: Lato;
+    margin: 0;
+    font-size: $font-size-media;
+    line-height: $line-height-media;
+    text-align: $text-aling-left;
+    padding-bottom: $padding-bottom-media;
+  }
+}
