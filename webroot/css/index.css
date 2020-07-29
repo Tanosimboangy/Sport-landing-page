@@ -137,15 +137,18 @@ span {
   font-size: calc(16px);
   line-height: calc(21px);
   color: #00ADEE;
-  text-align: center; }
+  text-align: center;
+  margin: 0;
+  padding-top: calc(40px);
+  padding-bottom: calc(26px); }
 
 .heading a {
   text-transform: uppercase; }
 
-.sub-headin {
+.sub-heading {
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 37px;
+  font-size: calc(29px);
+  line-height: calc(37px);
   text-align: center;
   color: #333333; }

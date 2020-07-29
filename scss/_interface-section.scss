@@ -1,25 +1,32 @@
 @import "variable";
-$font-size: calc(#{$padding * 8});
-$line-hieght: calc(#{$padding * 10.5});
+$font-size-heading: calc(#{$padding * 8});
+$line-hieght-heading: calc(#{$padding * 10.5});
+$font-size-sub-heading: calc(#{$padding * 14.5});
+$line-hieght-sub-heading:calc(#{$padding * 18.5});
+$padding-top-heading:calc(#{$padding * 20});
+$padding-bottom-heading:calc(#{$padding * 13});
 
 .heading {
   font-style: normal;
   font-weight: bold;
   font-size: $font-size;
-  line-height: $line-hieght;
+  line-height: $line-hieght-heading;
   color: $color-link;
   text-align: $text-aling-center;
+  margin: 0;
+  padding-top: $padding-top-heading;
+  padding-bottom: $padding-bottom-heading;
 }
 
 .heading a {
   text-transform: uppercase;
 }
 
-.sub-headin {
+.sub-heading {
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 37px;
+  font-size: $font-size-sub-heading;
+  line-height: $line-hieght-sub-heading;
   text-align: $text-aling-center;
   color: $color-sub-heading;
 }
