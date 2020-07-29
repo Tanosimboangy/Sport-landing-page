@@ -1,3 +1,32 @@
-section:nth-of-type(2) {
+@import "variable";
+$font-size-feature-heading: calc(#{$padding * 14});
+$line-height-feature-heading: calc(#{$padding * 18.5});
+$padding-top-feature-heading: calc(#{$padding * 21});
+$paddin-left:calc(#{$padding * 10});
+$paddin-bottom:calc(#{$padding * 50});
+
+.second-section {
   background: #FAFAFA;
+  p {
+    font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #4F4F4F;
+  }
+}
+.feature-heading {
+  font-style: normal;
+  font-weight: bold;
+  margin: 0;
+  padding-left: $paddin-left;
+  padding-right: $paddin-left;
+  padding-bottom: $paddin-bottom;
+  padding-top: $padding-top-feature-heading;
+  font-size: $font-size-feature-heading;
+  line-height: $line-height-feature-heading;
+  text-align: $text-aling-center;
+  color: $color-sub-heading;
 }

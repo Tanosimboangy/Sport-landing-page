@@ -65,7 +65,7 @@ $padding-bottom-more-details:calc(#{$padding * 4.5});
   margin: 0;
 }
 
-section:first-of-type::after {
+.first-section::after {
   content: "";
   background-image: url(../img/bg_friendly_user_interface.png);
   background-repeat: no-repeat;
