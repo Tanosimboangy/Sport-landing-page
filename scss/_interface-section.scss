@@ -2,11 +2,19 @@
 $font-size-heading: calc(#{$padding * 8});
 $line-hieght-heading: calc(#{$padding * 10.5});
 $font-size-sub-heading: calc(#{$padding * 14.5});
+$font-size-more-details: calc(#{$padding * 8});
 $line-hieght-sub-heading:calc(#{$padding * 18.5});
+$line-hieght-more-details:calc(#{$padding * 11.5});
 $padding-top-heading:calc(#{$padding * 20});
 $padding-bottom-heading:calc(#{$padding * 13});
+$padding-bottom-sub-heading:calc(#{$padding * 13.5});
+$padding-more-details:calc(#{$padding * 10});
+$padding-bottom-more-details:calc(#{$padding * 4.5});
+
+
 
 .heading {
+  font-family: Lato;
   font-style: normal;
   font-weight: bold;
   font-size: $font-size;
@@ -23,11 +31,47 @@ $padding-bottom-heading:calc(#{$padding * 13});
 }
 
 .sub-heading {
+  font-family: Lato;
   font-style: normal;
   font-weight: bold;
   font-size: $font-size-sub-heading;
   line-height: $line-hieght-sub-heading;
   text-align: $text-aling-center;
   color: $color-sub-heading;
+  margin: 0;
+  padding-bottom: $padding-bottom-sub-heading;
 }
 
+.more-details {
+  margin: 0;
+  padding-bottom: $padding-bottom-more-details;
+  padding-left: 0;
+  padding-right: 0;
+  p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $font-size-more-details;
+    line-height: $line-hieght-more-details;
+    text-align: $text-aling-center;
+    padding-left: $padding-more-details;
+    padding-right: $padding-more-details;
+    margin-top: 0;
+    color: $color-paragraph;
+  }
+}
+
+.more-info {
+  margin: 0;
+}
+
+section:first-of-type::after {
+  content: "";
+  background-image: url(../img/bg_friendly_user_interface.png);
+  background-repeat: no-repeat;
+  width: 30rem;
+  height: 20rem;
+  display: inline-block;
+  background-position: center;
+  background-size: contain;
+}
