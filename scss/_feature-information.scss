@@ -9,6 +9,9 @@ $paddin-bottom:calc(#{$padding * 50});
   background: #FAFAFA;
   ul {
     margin: 0;
+    svg {
+      fill: #00ADEE;
+    }
   }
   p {
     font-family: Lato;
@@ -38,11 +41,9 @@ $paddin-bottom:calc(#{$padding * 50});
 .video-icon {
   padding-bottom: 100px;
 }
-
 .notification-icon {
   padding-bottom: 100px;
 }
-
 .brand-icon {
   padding-bottom: 100px;
 }
@@ -54,4 +55,22 @@ $paddin-bottom:calc(#{$padding * 50});
 }
 .update-icon {
   padding-bottom: 58px;
+}
+
+@media(min-width: 1120px) {
+  .second-section {
+    background-color: #00ADEE;
+  }
+  // ul {
+  //   display: flex;
+  //   flex-direction: row;
+  // }
+  li svg {
+    fill: #FFFFFF;
+  }
+  .feature-heading {
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 37px;
+  }
 }
