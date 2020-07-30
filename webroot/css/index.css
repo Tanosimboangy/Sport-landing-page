@@ -226,12 +226,37 @@ span {
 @media (min-width: 1120px) {
   .second-section {
     background-color: #00ADEE; }
-  li svg {
-    fill: #FFFFFF; }
+    .second-section p {
+      color: #FFFFFF;
+      text-align: left;
+      font-size: 16px;
+      line-height: 23px; }
   .feature-heading {
     color: #FFFFFF;
     font-size: 28px;
-    line-height: 37px; } }
+    line-height: 37px; }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px; }
+  li:first-of-type {
+    grid-column: 1 / 1;
+    grid-row: 1; }
+  li:nth-of-type(2) {
+    grid-column: 2 / 2;
+    grid-row: 1; }
+  li:nth-of-type(3) {
+    grid-column: 3 / 3;
+    grid-row: 1; }
+  li:nth-of-type(4) {
+    grid-column: 1 / 1;
+    grid-row: 2; }
+  li:nth-of-type(5) {
+    grid-column: 2 / 2;
+    grid-row: 2; }
+  li:last-of-type {
+    grid-column: 3 / 3;
+    grid-row: 2; } }
 
 .heading {
   font-family: Lato;
