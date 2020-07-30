@@ -1,0 +1,10 @@
+@import "variable";
+$font-size-feature-heading: calc(#{$padding * 14});
+$line-height-feature-heading: calc(#{$padding * 18.5});
+$padding-top-feature-heading: calc(#{$padding * 21});
+$paddin-left:calc(#{$padding * 10});
+$paddin-bottom:calc(#{$padding * 50});
+
+.third-section {
+  background: #FAFAFA;
+}

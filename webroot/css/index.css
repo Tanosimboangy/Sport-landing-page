@@ -115,6 +115,9 @@ span {
   .icon__google_play {
     padding-left: calc(35.9px); } }
 
+.third-section {
+  background: #FAFAFA; }
+
 .alinging_items {
   display: flex;
   flex-direction: row;
@@ -154,6 +157,24 @@ span {
   line-height: calc(37px);
   text-align: center;
   color: #333333; }
+
+.video-icon {
+  padding-bottom: 100px; }
+
+.notification-icon {
+  padding-bottom: 100px; }
+
+.brand-icon {
+  padding-bottom: 100px; }
+
+.comment-icon {
+  padding-bottom: 100px; }
+
+.picture-icon {
+  padding-bottom: 100px; }
+
+.update-icon {
+  padding-bottom: 58px; }
 
 .heading {
   font-family: Lato;
@@ -207,9 +228,10 @@ span {
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
-  display: inline-block;
-  background-position: center center;
-  background-size: 100rem; }
+  display: block;
+  background-size: 1500px;
+  background-position-x: 50%;
+  background-position-y: 50%; }
 
 @media (min-width: 1120px) {
   .heading {
@@ -236,6 +258,7 @@ span {
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    display: inline-block;
-    background-position: right right;
-    background-size: 100rem; } }
+    display: block;
+    background-size: 1800px;
+    background-position-x: 50%;
+    background-position-y: 50%; } }
