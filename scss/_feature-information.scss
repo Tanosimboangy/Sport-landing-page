@@ -66,13 +66,21 @@ $paddin-bottom:calc(#{$padding * 50});
       font-size: 16px;
       line-height: 23px;
     }
+    ul {
+      li {
+        svg {
+          text-align: left;
+          fill: #FFFF;
+        }
+      }
+    }
   }
   .feature-heading {
     color: #FFFFFF;
     font-size: 28px;
     line-height: 37px;
   }
-  ul {
+  .second-section ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 50px;
@@ -102,6 +110,4 @@ $paddin-bottom:calc(#{$padding * 50});
     grid-column: 3 / 3;
     grid-row: 2;
   }
-
-
 }
