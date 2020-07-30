@@ -210,3 +210,32 @@ span {
   display: inline-block;
   background-position: center center;
   background-size: 100rem; }
+
+@media (min-width: 1120px) {
+  .heading {
+    text-align: left;
+    padding-top: 200px;
+    padding-bottom: 27px; }
+  .sub-heading {
+    text-align: left;
+    padding-bottom: 27px; }
+  .more-details {
+    margin: 0;
+    padding-bottom: 54px;
+    max-width: 480px;
+    max-height: 139px; }
+    .more-details p {
+      padding: 0;
+      text-align: left; }
+  .more-info {
+    text-align: left;
+    padding-bottom: 153px; }
+  .first-section::after {
+    content: "";
+    background-image: url(../img/bg_friendly_user_interface.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: inline-block;
+    background-position: right right;
+    background-size: 100rem; } }

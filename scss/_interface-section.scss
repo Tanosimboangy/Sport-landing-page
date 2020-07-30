@@ -75,3 +75,40 @@ $padding-bottom-more-details:calc(#{$padding * 4.5});
   background-position: center center;
   background-size: 100rem;
 }
+
+
+@media(min-width: 1120px) {
+  .heading {
+    text-align: $text-aling-left;
+    padding-top: 200px;
+    padding-bottom: 27px;
+  }
+  .sub-heading {
+    text-align: $text-aling-left;
+    padding-bottom: 27px;
+  }
+  .more-details {
+    margin: 0;
+    padding-bottom: 54px;
+    max-width: 480px;
+    max-height: 139px;
+    p {
+      padding: 0;
+      text-align: $text-aling-left;
+    }
+  }
+  .more-info {
+    text-align: $text-aling-left;
+    padding-bottom: 153px;
+  }
+  .first-section::after {
+    content: "";
+    background-image: url(../img/bg_friendly_user_interface.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: inline-block;
+    background-position: right right;
+    background-size: 100rem;
+  }
+}

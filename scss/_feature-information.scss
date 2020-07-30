@@ -9,12 +9,12 @@ $paddin-bottom:calc(#{$padding * 50});
   background: #FAFAFA;
   p {
     font-family: Lato;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 23px;
-  text-align: center;
-  color: #4F4F4F;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #4F4F4F;
   }
 }
 .feature-heading {
@@ -29,4 +29,16 @@ $paddin-bottom:calc(#{$padding * 50});
   line-height: $line-height-feature-heading;
   text-align: $text-aling-center;
   color: $color-sub-heading;
+}
+
+.video-icon {
+
+}
+
+.notification-icon {
+
+}
+
+.brand-icon {
+
 }
