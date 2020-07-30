@@ -205,8 +205,8 @@ span {
   content: "";
   background-image: url(../img/bg_friendly_user_interface.png);
   background-repeat: no-repeat;
-  width: 30rem;
-  height: 20rem;
+  width: 100vw;
+  height: 100vh;
   display: inline-block;
-  background-position: center;
-  background-size: contain; }
+  background-position: center center;
+  background-size: cover; }
