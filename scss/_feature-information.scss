@@ -7,6 +7,9 @@ $paddin-bottom:calc(#{$padding * 50});
 
 .second-section {
   background: #FAFAFA;
+  ul {
+    margin: 0;
+  }
   p {
     font-family: Lato;
     font-style: normal;
@@ -15,6 +18,7 @@ $paddin-bottom:calc(#{$padding * 50});
     line-height: 23px;
     text-align: center;
     color: #4F4F4F;
+    margin: 0;
   }
 }
 .feature-heading {
