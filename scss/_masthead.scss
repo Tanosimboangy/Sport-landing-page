@@ -31,7 +31,6 @@ header {
   padding-right: $padding-right;
   padding-bottom: $padding-bottom;
 }
-
 @media(min-width: 1120px) {
   .heading_page {
     font-size: $font-size-media;
@@ -49,8 +48,6 @@ header {
     max-width: 1114px;
     margin: $margin-auto;
   }
-
-
   main > header {
     background-image: url(../img/bg_header.png);
     background-size: contain;
