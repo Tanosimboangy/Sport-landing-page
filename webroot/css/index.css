@@ -350,8 +350,8 @@ footer {
   background-image: url(../img/bg_friendly_user_interface.png);
   position: relative;
   background-repeat: no-repeat;
-  width: 1800px;
-  height: 1800px;
+  width: 100vw;
+  height: 100vh;
   display: block;
   background-size: 1500px;
   background-position-x: 50%;
@@ -383,8 +383,6 @@ footer {
     content: "";
     background-image: url(../img/bg_friendly_user_interface.png);
     background-repeat: no-repeat;
-    width: 1800px;
-    height: 1800px;
     display: block;
     background-size: 1800px;
     position: absolute;
