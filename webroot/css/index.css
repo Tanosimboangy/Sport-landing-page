@@ -162,6 +162,58 @@ span {
 
 footer {
   background-color: #00ADEE; }
+  footer p {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 11px;
+    margin: 0; }
+  footer .three_icons_list {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-bottom: 34px;
+    margin: 0; }
+    footer .three_icons_list li {
+      margin-right: 10px; }
+  footer .four_lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 18px;
+    padding-bottom: 45px;
+    margin: 0; }
+    footer .four_lists li {
+      padding-right: 1rem; }
+      footer .four_lists li a {
+        color: #FFFF; }
+
+@media (min-width: 1120px) {
+  footer .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between; }
+    footer .navigation p {
+      padding: 51px 0; }
+    footer .navigation .three_icons_list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 51px 0;
+      order: 3; }
+      footer .navigation .three_icons_list li {
+        justify-content: space-around; }
+    footer .navigation .four_lists {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 51px 0;
+      order: 2; }
+      footer .navigation .four_lists li {
+        justify-content: space-between; } }
 
 .alinging_items {
   display: flex;
