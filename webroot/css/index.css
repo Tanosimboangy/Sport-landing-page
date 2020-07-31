@@ -160,6 +160,9 @@ span {
   .third-section p {
     padding-top: 57px; } }
 
+footer {
+  background-color: #00ADEE; }
+
 .alinging_items {
   display: flex;
   flex-direction: row;
