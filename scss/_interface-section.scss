@@ -65,12 +65,13 @@ $padding-bottom-more-details:calc(#{$padding * 4.5});
   margin: 0;
 }
 
-.first-section::after {
+.interface::after {
   content: "";
   background-image: url(../img/bg_friendly_user_interface.png);
+  position: relative;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
+  width: 1800px;
+  height: 1800px;
   display: block;
   background-size: 1500px;
   background-position-x: 50%;
@@ -102,15 +103,21 @@ $padding-bottom-more-details:calc(#{$padding * 4.5});
     text-align: $text-aling-left;
     padding-bottom: 153px;
   }
-  .first-section::after {
+  .first-section {
+    position: relative;
+    overflow: hidden;
+  }
+  .interface::after {
     content: "";
     background-image: url(../img/bg_friendly_user_interface.png);
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    width: 1800px;
+    height: 1800px;
     display: block;
     background-size: 1800px;
-    background-position-x: 50%;
-    background-position-y: 50%;
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 240px);
+    transform: translate(-50%, -50%);
   }
 }
