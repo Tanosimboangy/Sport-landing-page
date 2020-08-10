@@ -24,12 +24,13 @@ $max-width-media: calc(#{$max-width * 5.75});
 
 @media(min-width: 1120px) {
   .logo {
-    text-align: $text-aling-center;
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 558px);
+    text-align: center;
     max-width: $max-width-media;
-    padding-right: $padding-right;
     max-height: $max-height-media;
     font-size: $font-size-media;
-    padding-bottom: $padding-bottom-media;
     margin: $margin-auto;
   }
 }

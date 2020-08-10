@@ -7,8 +7,7 @@ body {
   margin: 0; }
 
 li {
-  list-style: none;
-  text-align: start; }
+  list-style: none; }
 
 a {
   text-decoration: none; }
@@ -32,12 +31,13 @@ ul {
 
 @media (min-width: 1120px) {
   .logo {
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 558px);
     text-align: center;
     max-width: calc(92px);
-    padding-right: calc(1010px);
     max-height: calc(32px);
     font-size: calc(12px);
-    padding-bottom: calc(30px);
     margin: auto; } }
 
 header {
@@ -64,19 +64,22 @@ header {
     text-align: left;
     max-height: calc(96px);
     padding-bottom: calc(30px);
-    padding-top: calc(132px);
+    padding-top: calc(200px);
     line-height: calc(48px);
     padding-left: 0;
     padding-right: 0; }
   .container {
     max-width: 1114px;
-    margin: auto; }
+    margin: auto;
+    overflow: visible; }
+  main {
+    overflow: visible; }
   main > header {
     background-image: url(../img/bg_header.png);
-    background-size: contain;
+    background-size: 850px;
     background-repeat: no-repeat;
-    background-position-X: calc(50vw - 11px);
-    background-position-y: -10px; } }
+    background-position-X: calc(50vw - 60px);
+    background-position-y: -168px; } }
 
 .content_page {
   height: calc(70px);
@@ -186,7 +189,8 @@ footer {
     padding-bottom: 45px;
     margin: 0; }
     footer .four_lists li {
-      padding-right: 1rem; }
+      padding-right: 1rem;
+      margin: 0 10px; }
       footer .four_lists li a {
         color: #FFFF; }
 
@@ -229,24 +233,23 @@ footer {
 @media (min-width: 1120px) {
   .alinging_items {
     margin: 0;
-    padding-bottom: calc(150px);
+    padding-bottom: calc(144px);
     padding-top: calc(12.5px); } }
 
-.second-section {
-  background: #FAFAFA; }
-  .second-section ul {
-    margin: 0; }
-    .second-section ul svg {
-      fill: #00ADEE; }
-  .second-section p {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 23px;
-    text-align: center;
-    color: #4F4F4F;
-    margin: 0; }
+.second-section ul {
+  margin: 0; }
+  .second-section ul svg {
+    fill: #00ADEE; }
+
+.second-section p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #4F4F4F;
+  margin: 0; }
 
 .feature-heading {
   font-style: normal;
@@ -287,8 +290,10 @@ footer {
       text-align: left;
       font-size: 16px;
       line-height: 23px; }
-    .second-section ul li svg {
-      fill: #FFFF; }
+    .second-section ul li {
+      text-align: initial; }
+      .second-section ul li svg {
+        fill: #FFFF; }
   .feature-heading {
     color: #FFFFFF;
     font-size: 28px;

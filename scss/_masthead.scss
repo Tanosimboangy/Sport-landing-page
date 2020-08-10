@@ -9,7 +9,7 @@ $font-size: calc(#{$padding * 15});
 $font-size-media: calc(#{$padding * 18});
 $padding-bottom: calc(#{$padding * 16.5});
 $padding-bottom-media: calc(#{$padding * 15});
-$padding-top-media: calc(#{$padding * 66});
+$padding-top-media: calc(#{$padding * 100});
 $padding-left: calc(#{$padding * 10});
 $padding-right: calc(#{$padding * 10});
 
@@ -47,13 +47,17 @@ header {
   .container {
     max-width: 1114px;
     margin: $margin-auto;
+    overflow: visible;
+  }
+  main {
+    overflow: visible;
   }
   main > header {
     background-image: url(../img/bg_header.png);
-    background-size: contain;
+    background-size: 850px;
     background-repeat: no-repeat;
-    background-position-X: calc(50vw - 11px);
-    background-position-y: -10px;
+    background-position-X: calc(50vw - 60px);
+    background-position-y: -168px;
   }
 }
 
