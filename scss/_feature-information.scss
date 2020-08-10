@@ -6,7 +6,7 @@ $paddin-left:calc(#{$padding * 10});
 $paddin-bottom:calc(#{$padding * 50});
 
 .second-section {
-  background: #FAFAFA;
+  // background: #FAFAFA;
   ul {
     margin: 0;
     svg {
@@ -68,6 +68,7 @@ $paddin-bottom:calc(#{$padding * 50});
     }
     ul {
       li {
+        text-align: initial;
         svg {
           fill: #FFFF;
         }
