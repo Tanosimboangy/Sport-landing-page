@@ -6,7 +6,6 @@ $paddin-left:calc(#{$padding * 10});
 $paddin-bottom:calc(#{$padding * 50});
 
 .second-section {
-  // background: #FAFAFA;
   ul {
     margin: 0;
     svg {
@@ -69,8 +68,6 @@ $paddin-bottom:calc(#{$padding * 50});
     ul {
       li {
         text-align: initial;
-        list-style: disc;
-        color: #FFFFFF;
         svg {
           fill: #FFFF;
         }
@@ -87,5 +84,23 @@ $paddin-bottom:calc(#{$padding * 50});
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2;
     column-gap: 50px;
+  }
+  .video-icon::before {
+    content: "•";
+  }
+  .notification-icon::before {
+    content: "•";
+  }
+  .brand-icon::before {
+    content: "•";
+  }
+  .comment-icon::before {
+    content: "•";
+  }
+  .picture-icon::before {
+    content: "•";
+  }
+  .update-icon::before {
+    content: "•";
   }
 }
