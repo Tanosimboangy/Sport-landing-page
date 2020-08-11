@@ -12,23 +12,21 @@ footer {
   .three_icons_list {
     display: flex;
     flex-direction: row;
-    padding-left: 20px;
+    padding-left: 0;
     padding-bottom: 34px;
     margin: $margin;
     li {
-      margin-right: 10px;
+      margin-left: 20px;
     }
   }
   .four_lists {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     text-align: $text-aling-left;
-    padding-left: 18px;
     padding-bottom: 45px;
     margin: $margin;
+    padding-left: 12px;
     li {
-      padding-right: 1rem;
       margin: 0 10px;
       a {
         color: #FFFF;
