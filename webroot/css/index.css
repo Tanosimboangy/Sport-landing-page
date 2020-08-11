@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: lato;
   text-align: center;
@@ -168,7 +169,8 @@ span {
     .third-section ul li:nth-of-type(6) {
       flex-basis: auto; }
   .third-section p {
-    padding-top: 57px; } }
+    padding-top: 60px;
+    padding-bottom: 60px; } }
 
 footer {
   background-color: #00ADEE; }
@@ -295,9 +297,7 @@ footer {
       font-size: 16px;
       line-height: 23px; }
     .second-section ul li {
-      text-align: initial;
-      list-style: disc;
-      color: #FFFFFF; }
+      text-align: initial; }
       .second-section ul li svg {
         fill: #FFFF; }
   .feature-heading {
@@ -308,7 +308,19 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 2;
-    column-gap: 50px; } }
+    column-gap: 50px; }
+  .video-icon::before {
+    content: "•"; }
+  .notification-icon::before {
+    content: "•"; }
+  .brand-icon::before {
+    content: "•"; }
+  .comment-icon::before {
+    content: "•"; }
+  .picture-icon::before {
+    content: "•"; }
+  .update-icon::before {
+    content: "•"; } }
 
 .heading {
   font-family: Lato;
