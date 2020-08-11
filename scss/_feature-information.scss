@@ -69,6 +69,8 @@ $paddin-bottom:calc(#{$padding * 50});
     ul {
       li {
         text-align: initial;
+        list-style: disc;
+        color: #FFFFFF;
         svg {
           fill: #FFFF;
         }
