@@ -7,9 +7,16 @@ $paddin-bottom:calc(#{$padding * 50});
 
 .second-section {
   ul {
-    margin: 0;
-    svg {
-      fill: #00ADEE;
+    li {
+      margin: 0;
+      svg {
+        fill: #00ADEE;
+      }
+    }
+    li:hover {
+      svg {
+        fill: red;
+      }
     }
   }
   p {

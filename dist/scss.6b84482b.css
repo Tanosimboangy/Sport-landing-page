@@ -10,16 +10,19 @@ body {
   font-weight: normal;
   overflow: visible;
   margin: 0; }
+  body ul {
+    padding: 0;
+    margin: 0; }
+    body ul li {
+      list-style: none; }
+  body a {
+    text-decoration: none; }
 
-li {
-  list-style: none; }
-
-a {
-  text-decoration: none; }
-
-ul {
-  padding-left: 20px;
-  padding-right: 20px; }
+@media (min-width: 720px) {
+  body {
+    max-width: 90%;
+    margin-right: 5%;
+    margin-left: 5%; } }
 
 .logo {
   padding-top: calc(24px);
@@ -244,10 +247,13 @@ footer {
     padding-bottom: calc(144px);
     padding-top: calc(12.5px); } }
 
-.second-section ul {
+.second-section ul li {
   margin: 0; }
-  .second-section ul svg {
+  .second-section ul li svg {
     fill: #00ADEE; }
+
+.second-section ul li:hover svg {
+  fill: red; }
 
 .second-section p {
   font-family: Lato;

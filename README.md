@@ -1,104 +1,58 @@
-# Front-end assessment
+<!-- # Country Quiz
 
-A mockup-to-website example to be used as an assessment
+### I have built this for anyone who is is intersted in learning while having fun to know all of the names of the countries around the world. If you want to challenge yourself and extend your knowledge about the world, this is the rigth path for you to take.
 
-## Getting started
+### You can follow the brief description about this project, in order to know about what it does, how it works, and how to use it.
 
-- Fork this repo to your own github account
-- Clone your github account version of the repo (e.g. `STUDENT_NAME/front-end-assessment` ) to your computer.
-- Work in your `main` branch
+### Please have a great while playing this game. This is the link to the netlify to play it:
+## **https://country-quiz-project.netlify.app/**
 
-## The design
+<h1 align="center">Country Quiz Project</h1>
 
-I'd recommend downloading the Figma App if you haven't already.
+<div align="center">
+  <h3>
+    <a href="https://{https://country-quiz-project.netlify.app/}">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://{https://github.com/Tanosimboangy/country-quiz}">
+      Solution
+    </a>
+  </h3>
+</div>
 
-### On Figma.com
+# *Overview:*
 
-You can [find the mockup on Figma](https://www.figma.com/file/SC3HqLUP9hGBfn93mIwxkS/Sports-App-homepage-Responsive-Revised)
+![screenshot](./Screenshot/img1.png)
+![screenshot](./Screenshot/img2.png)
+![screenshot](./Screenshot/img3.png)
+![screenshot](./Screenshot/img4.png)
 
-### As a `.fig` file
+# *Yuo can see my demo here:*
+- You can see my demo in this following link: [https://country-quiz-project.netlify.app/](https://country-quiz-project.netlify.app/).
 
-You can [find the `.fig` file in the source folder of this repo](source-materials/sports-app.fig).
+# *My experience:*
 
-Open the `.fig` in the Figma App, or import it/drag it into the Figma.com workspace in your browser.
+ - Despite of the fact that I encountered a lot of struggles while creating this app, I am very proud that I could handle it.
 
-## Resources
+ - Firstly, I fetched all of the data through this API [https://restcountries.eu/rest/v2/all](https://restcountries.eu/rest/v2/all). At first, I had a problem with my dependecy, because I did not have the browserslist in there, but as soon as I implemented this "browserslist" in my dependency it worked.
 
-I've extracted all the images in multiple formats, and placed them in the `source-material/imagery` folder.
+- Something I have never used before but I applied in this project is importing an image. Import the image as if you are to import a component so that you can use that filename inside of the source. This is quite interesting because it helps you to maintain your code clean and easily to understand.
 
-So too with downloading the fonts. Have a look in the `source-material/fonts` folder.
+# *Anything I have learned/improved:*
 
-## Development
+- While doing this project, I leanred: firstly, using all the ways to deal with an array, such as find(), map() and filter().
 
-The `webroot` folder is where all your work should go. You'll notice there's already an `index.html` and the supporting folders inside the `webroot`.
+- Apart from that, I starated to fully understand more about how to use Router and and Switch, as well as Link, and how they work.
 
-## Requirements
+# *My wisdom:*
 
-Your work on the site header, and masthead will be the primary focus of this assessment.
-i.e. you must first deliver these two elements, so that they can be marked.
+- In the face of bugs, I tried to do my best to fully understand what is going on before asking for help from google or anyone.
 
-The rest of the components of the site, we'll do later as an exercise.
-
-### Marking
-
-Your work will be marked on the following criteria:
-
-- Git
-  - Commits, commit messages, and their frequency (how often you commit)
-- Code
-  - All code should be:
-    - well-formatted and clean
-    - easy to understand
-    - self-documenting
-    - using comments when needed
-    - named well (e.g. class names should be relevant)
-  - HTML
-    - Use of HTML elements
-    - Accessible
-  - CSS
-    - Well-structured and easy to find relevant files
-    - Good / consistent naming conventions (methodologies)
-    - Reliable and simple techniques used (e.g. Flex vs. Grid vs. Normal flow, etc)
-- Results
-  - Should work in both Firefox and Chrome
-  - Responsive, supporting mobile and desktop devices
-  - Be accessible (You should use accessibility techniques we've covered in our courses)
-  - Accurate as possible (Your end product should look as similar to the designs as possible
-
-### Bonus marks
-
-Bonus points will be awarded for code that uses:
-
-- a new technique you had to research while doing this assessment
-- elegant (thoughtful) solutions to complex problems
-- going the extra mile (putting in more effort to push for high quality or delight)
-
-# Instruction for runnign sass
-
-- Make sure that your branch is clean
-- Create a new branch to run sass
-- Git push from your new branch
-
-### INSTALL
-- Use "npm init" to create the package-json file in terminal
-- Git add => git commit => git push
-- Use "npm i -D node-sass" to install node-sass
-- Create a .gitignore for the node-modules to be hidden
-      .gitignore => inside node-modules
-They should be done in visual studio code
-- Go to terminal in VSCode and add "npx node-sass"
-- Create the css "scripts" in package.json
-
-## RUN SASS
-- npx node-sass
-- npm run css
-- npm run css:watch
+- I tried to rely on google, I did a lot of research during while fulfilling this task.
 
 
+# *Contact :*
 
-
-
-
-
-
-
+- ## Portfolio [My portfolio](https://cocky-hermann-e30656.netlify.app/)
+- ## GitHub [Tanosimboangy](https://github.com/Tanosimboangy) -->
