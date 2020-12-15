@@ -53,7 +53,8 @@ header {
     overflow: visible;
   }
   main > header {
-    background-image: url(../img/bg_header.png);
+
+    background-image: url(../webroot/img/bg_header.png);
     background-size: 850px;
     background-repeat: no-repeat;
     background-position-X: calc(50vw - 60px);

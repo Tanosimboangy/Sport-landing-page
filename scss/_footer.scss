@@ -1,5 +1,4 @@
 @import "variable";
-
 footer {
   background-color: $color-link;
   p {
@@ -22,6 +21,7 @@ footer {
   .four_lists {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     text-align: $text-aling-left;
     padding-bottom: 45px;
     margin: $margin;
@@ -60,6 +60,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        flex-wrap: wrap;
         padding: 51px 0;
         order: 2;
         li {
