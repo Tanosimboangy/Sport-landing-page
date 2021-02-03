@@ -29,10 +29,9 @@ body {
   }
 }
 
-@media(min-width: 720px) {
+@media(max-width: 720px) {
   body {
-    max-width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+    max-width: 100%;
+    margin: auto;
   }
 }
