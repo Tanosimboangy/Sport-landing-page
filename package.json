@@ -4,7 +4,10 @@
   "description": "<!-- # Country Quiz",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass scss -o webroot/css",
+    "scss:watch": "npm run scss && node-sass scss -w -o webroot/css",
+    "start": "npm run scss:watch"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,8 @@
   "homepage": "https://github.com/Tanosimboangy/front-end-assessment#readme",
   "devDependencies": {
     "sass": "^1.32.6"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.1"
   }
 }

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: lato;
+  src: local(lato), url(../webroot/fonts/AnyConv.com__Lato-Bold.woff2), url(../webroot/fonts/AnyConv.com__Lato-Bold.woff), url(../webroot/fonts/AnyConv.com__Lato-Regular.woff2), url(../webroot/fonts/AnyConv.com__Lato-Regular.woff); }
+
+body {
+  font-family: "lato";
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  overflow: visible;
+  margin: 0; }
+  body ul {
+    padding: 0;
+    margin: 0; }
+    body ul li {
+      list-style: none; }
+  body a {
+    text-decoration: none; }
+
+@media (max-width: 720px) {
+  body {
+    max-width: 100%;
+    margin: auto; } }

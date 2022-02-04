@@ -1,25 +1,27 @@
 @charset "UTF-8";
-body {
+@font-face {
   font-family: lato;
+  src: local(lato), url(../webroot/fonts/AnyConv.com__Lato-Bold.woff2), url(../webroot/fonts/AnyConv.com__Lato-Bold.woff), url(../webroot/fonts/AnyConv.com__Lato-Regular.woff2), url(../webroot/fonts/AnyConv.com__Lato-Regular.woff); }
+
+body {
+  font-family: "lato";
   text-align: center;
   font-style: normal;
   font-weight: normal;
   overflow: visible;
   margin: 0; }
+  body ul {
+    padding: 0;
+    margin: 0; }
+    body ul li {
+      list-style: none; }
+  body a {
+    text-decoration: none; }
 
-li {
-  list-style: none; }
-
-a {
-  text-decoration: none; }
-
-ul {
-  padding-left: 20px;
-  padding-right: 20px; }
-
-@font-face {
-  font-family: lato;
-  src: local(lato), url(../fonts/AnyConv.com__Lato-Bold.woff), url(../fonts/AnyConv.com__Lato-Regular.woff), url(../fonts/AnyConv.com__Lato-Bold.woff2), url(../fonts/AnyConv.com__Lato-Regular.woff2); }
+@media (max-width: 720px) {
+  body {
+    max-width: 100%;
+    margin: auto; } }
 
 .logo {
   padding-top: calc(24px);
@@ -76,7 +78,7 @@ header {
   main {
     overflow: visible; }
   main > header {
-    background-image: url(../img/bg_header.png);
+    background-image: url(../webroot/img/bg_header.png);
     background-size: 850px;
     background-repeat: no-repeat;
     background-position-X: calc(50vw - 60px);
@@ -191,6 +193,7 @@ footer {
   footer .four_lists {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     text-align: left;
     padding-bottom: 45px;
     margin: 0;
@@ -221,6 +224,7 @@ footer {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      flex-wrap: wrap;
       padding: 51px 0;
       order: 2; }
       footer .navigation .four_lists li {
@@ -242,10 +246,13 @@ footer {
     padding-bottom: calc(144px);
     padding-top: calc(12.5px); } }
 
-.second-section ul {
+.second-section ul li {
   margin: 0; }
-  .second-section ul svg {
+  .second-section ul li svg {
     fill: #00ADEE; }
+
+.second-section ul li:hover svg {
+  fill: red; }
 
 .second-section p {
   font-family: Lato;
@@ -255,7 +262,9 @@ footer {
   line-height: 23px;
   text-align: center;
   color: #4F4F4F;
-  margin: 0; }
+  margin: 0;
+  margin-left: 5%;
+  margin-right: 5%; }
 
 .feature-heading {
   font-style: normal;
@@ -370,10 +379,10 @@ footer {
 
 .interface::after {
   content: "";
-  background-image: url(../img/bg_friendly_user_interface.png);
+  background-image: url(../webroot/img/bg_friendly_user_interface.png);
   position: relative;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 97vw;
   height: 100vh;
   display: block;
   background-size: 1500px;
@@ -404,7 +413,7 @@ footer {
     overflow: hidden; }
   .interface::after {
     content: "";
-    background-image: url(../img/bg_friendly_user_interface.png);
+    background-image: url(../webroot/img/bg_friendly_user_interface.png);
     background-repeat: no-repeat;
     display: block;
     background-size: 1800px;

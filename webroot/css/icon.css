@@ -1,0 +1,18 @@
+.float_row {
+  max-width: calc(140px);
+  max-height: calc(44px);
+  list-style: none;
+  padding-left: 0; }
+
+.icon__google_play {
+  margin-left: calc(32px); }
+
+span {
+  display: none; }
+
+@media (min-width: 900px) {
+  .float_row {
+    width: calc(156.8px);
+    height: calc(5.8px); }
+  .icon__google_play {
+    padding-left: calc(35.9px); } }
