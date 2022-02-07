@@ -1,84 +1,39 @@
-# Front-end assessment
+# Source Landing Page
 
-A mockup-to-website example to be used as an assessment
+<div align="center">
+  <h3>
+    <a href="https://github.com/Tanosimboangy/Sport-landing-page">
+      Source
+    </a>
+    <span> | </span>
+    <a href="https://jacquit-sport-landing-page.netlify.app/">
+      Demo
+    </a>
+  </h3>
+</div>
 
-## Getting started
+## **Overview:**
+![image](./webroot/img/sport_sm.png)
+![image](./webroot/img/sport_lg.png)
 
-- Fork this repo to your own github account
-- Clone your github account version of the repo (e.g. `STUDENT_NAME/front-end-assessment` ) to your computer.
-- Work in your `main` branch
+## **Built With:**
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-## The design
+## **Figma link:**
+You can find the desing online at: [figma desing](https://www.figma.com/file/SC3HqLUP9hGBfn93mIwxkS/Sports-App-homepage-(Responsive%2C-Revised)?node-id=0%3A1)
 
-I'd recommend downloading the Figma App if you haven't already.
 
-### On Figma.com
+## **Getting started:**
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with either [npm](http://npmjs.com) or [yarn](https://yarnpkg.com/)) installed on your computer. From your command line:
 
-You can [find the mockup on Figma](https://www.figma.com/file/SC3HqLUP9hGBfn93mIwxkS/Sports-App-homepage-Responsive-Revised)
+```bash
+# Clone this repository to your local machine
+$ git clone https://github.com/Tanosimboangy/Sport-landing-page.git.
 
-### As a `.fig` file
+# Install dependencies:
+- npm install or yarn install
 
-You can [find the `.fig` file in the source folder of this repo](source-materials/sports-app.fig).
-
-Open the `.fig` in the Figma App, or import it/drag it into the Figma.com workspace in your browser.
-
-## Resources
-
-I've extracted all the images in multiple formats, and placed them in the `source-material/imagery` folder.
-
-So too with downloading the fonts. Have a look in the `source-material/fonts` folder.
-
-## Development
-
-The `webroot` folder is where all your work should go. You'll notice there's already an `index.html` and the supporting folders inside the `webroot`.
-
-## Requirements
-
-Your work on the site header, and masthead will be the primary focus of this assessment.
-i.e. you must first deliver these two elements, so that they can be marked.
-
-The rest of the components of the site, we'll do later as an exercise.
-
-### Marking
-
-Your work will be marked on the following criteria:
-
-- Git
-  - Commits, commit messages, and their frequency (how often you commit)
-- Code
-  - All code should be:
-    - well-formatted and clean
-    - easy to understand
-    - self-documenting
-    - using comments when needed
-    - named well (e.g. class names should be relevant)
-  - HTML
-    - Use of HTML elements
-    - Accessible
-  - CSS
-    - Well-structured and easy to find relevant files
-    - Good / consistent naming conventions (methodologies)
-    - Reliable and simple techniques used (e.g. Flex vs. Grid vs. Normal flow, etc)
-- Results
-  - Should work in both Firefox and Chrome
-  - Responsive, supporting mobile and desktop devices
-  - Be accessible (You should use accessibility techniques we've covered in our courses)
-  - Accurate as possible (Your end product should look as similar to the designs as possible
-
-### Bonus marks
-
-Bonus points will be awarded for code that uses:
-
-- a new technique you had to research while doing this assessment
-- elegant (thoughtful) solutions to complex problems
-- going the extra mile (putting in more effort to push for high quality or delight)
-
-# Install
-
-Use `npm i` to install any file or folder.
-
-## Run css
-
-Use this command to run the file `npm run css:watch`.
-
-When you add a new file restart `css:Watch`
+# Run the app
+$ npm start or yarn start
+```
