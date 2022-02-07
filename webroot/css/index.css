@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: lato;
-  src: local(lato), url(./fonts/AnyConv.com__Lato-Bold.woff2), url(./fonts/AnyConv.com__Lato-Bold.woff), url(./fonts/AnyConv.com__Lato-Regular.woff2), url(./fonts/AnyConv.com__Lato-Regular.woff); }
+  src: local(lato), url(../fonts/AnyConv.com__Lato-Bold.woff2) format("woff2"), url(../fonts/AnyConv.com__Lato-Bold.woff) format("woff"), url(../fonts/AnyConv.com__Lato-Regular.woff2) format("woff2"), url(../fonts/AnyConv.com__Lato-Regular.woff) format("woff"); }
 
 body {
   font-family: "lato";
@@ -17,6 +17,10 @@ body {
       list-style: none; }
   body a {
     text-decoration: none; }
+  body button {
+    border: none;
+    outline: none;
+    cursor: pointer; }
 
 @media (max-width: 720px) {
   body {
@@ -78,7 +82,7 @@ header {
   main {
     overflow: visible; }
   main > header {
-    background-image: url(./img/bg_header.png);
+    background-image: url(../img/bg_header.png);
     background-size: 850px;
     background-repeat: no-repeat;
     background-position-X: calc(50vw - 60px);
@@ -379,7 +383,7 @@ footer {
 
 .interface::after {
   content: "";
-  background-image: url(./img/bg_friendly_user_interface.png);
+  background-image: url(../img/bg_friendly_user_interface.png);
   position: relative;
   background-repeat: no-repeat;
   width: 97vw;
@@ -413,7 +417,7 @@ footer {
     overflow: hidden; }
   .interface::after {
     content: "";
-    background-image: url(.img/bg_friendly_user_interface.png);
+    background-image: url(../img/bg_friendly_user_interface.png);
     background-repeat: no-repeat;
     display: block;
     background-size: 1800px;
